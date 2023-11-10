@@ -14,17 +14,17 @@
       <div class="offcanvas-body">
          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
-            <router-link to="/" class="nav-link active">Home</router-link>
+            <router-link class="nav-link active" :to="{ name: 'home'}" >Home</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/about" class="nav-link" >About</router-link>
+            <router-link class="nav-link" :to="{name: 'about'}" >About</router-link>
           </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+            <router-link  class="nav-link" href="#" :to="{name : 'projects'}" @click="reloadPage">Projects</router-link>
           </li>
           <div class="cv">
             <label for="CV"> View my CV</label>
-            <button class="button" @click="downloadFile">CV</button>
+            <a :href="pdfUrl" download="ZubairMatthee_CV.pdf"><button class="button">CV</button></a>
           </div>
           <div class="line"></div>
           <div class="line"></div>
@@ -38,15 +38,12 @@
 </header>
 </template>
 <script >
-export default {
- methods: {
-    downloadFile() {
-      const link = document.createElement('a');
-      link.href = 'https://drive.google.com/file/d/1TJJ2n-wQoRcy1YC7Gp8ggTJJlFeJlNZJ/view?usp=sharing';
-      link.download = 'https://drive.google.com/file/d/1TJJ2n-wQoRcy1YC7Gp8ggTJJlFeJlNZJ/view?usp=sharing';
-      link.click();
-    },
- },
+  export default {
+  data() {
+    return {
+      pdfUrl: "https://drive.google.com/file/d/1TJJ2n-wQoRcy1YC7Gp8ggTJJlFeJlNZJ/view?usp=sharing", 
+    };
+  },
 };
 </script>
 
@@ -143,6 +140,9 @@ label {
   font-size: 0.9rem;
 }
 
+a {
+  text-decoration: none;
+}
 
 
 .nav-link:hover {
@@ -156,5 +156,13 @@ label {
   font-size: 1.6rem;
   font-family: "Zilla Slab", serif;
 
+}
+
+@media only screen and (max-width: 300px) {
+  .navbar.navbar-dark.bg-dark.fixed-top{
+    background-color: transparent !important;
+    margin: 1rem;
+    position: relative;
+}
 }
 </style>

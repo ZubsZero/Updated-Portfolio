@@ -75,20 +75,54 @@
 
     </div>
   </div>
+  
  <Footer/>
 </template>
 
 <script>
-import NavBar from '@/components/NavBar-Comp.vue'
-
-import Footer from '@/components/Footer-Comp.vue'
+import NavBar from "@/components/NavBar-Comp.vue";
+import Footer from "@/components/Footer-Comp.vue";
+import Swal from "sweetalert2";
 
 export default {
-  name: 'HomeView',
+  name: "HomeView",
   components: {
-   NavBar, Footer
-  }
-}
+    NavBar,
+    Footer,
+  },
+  mounted() {
+    const alertShown = localStorage.getItem("alertShown");
+
+    if (!alertShown) {
+      setTimeout(() => {
+        this.showAlert();
+        localStorage.setItem("alertShown", "true");
+      }, 100);
+    }
+
+    window.addEventListener("unload", this.handleUnload);
+  },
+  beforeDestroy() {
+    window.removeEventListener("unload", this.handleUnload);
+  },
+  methods: {
+    showAlert() {
+      Swal.fire({
+        title: "Notification",
+        text: "Hi there User, Zubair here if there is an issue with the page freezing and unable to scroll, please press Ctrl R or reload the page in the browser's header. I have tried a multitude of ways to fix it but to no avail. I apologize for any inconvenience. Have an amazing day",
+        timer: 30000,
+        icon: "info",
+        buttons: true,
+        customClass: {
+          container: "dark-theme smaller-container",
+        },
+      });
+    },
+    handleUnload() {
+      localStorage.removeItem("alertShown");
+    },
+  },
+};
 </script>
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;700&display=swap");
@@ -97,20 +131,22 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 50rem;
   width: 100% !important;
   margin: 0;
   padding: 0;
-  position: relative; 
   overflow: hidden; 
 }
 
 .hero-info {
   position: relative;
   top: 30%;
-  margin-left: 8rem; /* Initial position for the container */
+  margin-left: 8rem; 
   color: white;
 }
+
+
 
 .this, .Main-title, .text, .btn1 {
   opacity: 0; 
@@ -340,5 +376,99 @@ export default {
 
 .info {
   margin-top: 3rem;
+}
+
+@media only screen and (max-width: 300px) {
+  .hero {
+  background-image: url("/src/Images/1236755.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 50rem;
+  width: 100% !important;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+}
+
+  .hero-info {
+  position: relative;
+  top: 20%;
+  margin-left: 2rem; 
+  color: white;
+}
+
+
+
+.Main-title {
+  animation-delay: 1.5s; 
+  font-size: 4rem;
+  font-family: "Zilla Slab", serif;
+  font-weight: 700;
+  color: #ae6006;
+  -webkit-text-stroke-width: 0.9px;
+  -webkit-text-stroke-color: rgb(5, 5, 5);
+  text-shadow: 0 0 6px #cd8500;
+}
+
+.container-brief {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 0, 0);
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  margin: 0rem;
+  gap: 0rem;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.img-con {
+  width: 15rem;
+  height: 20rem;
+  margin-left: 5rem;
+  opacity: 1;
+  transform: translateX(-50px);
+}
+
+.image {
+  width: 15rem;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.brief {
+  margin-left: 0rem;
+  text-align: center;
+  width: 100%;
+}
+
+.main-title {
+  font-family: "Zilla Slab", serif;
+  font-size: 4rem;
+  color: #ae6006;
+}
+
+.sub-title {
+  font-family: "Zilla Slab", serif;
+  font-size: 2rem;
+  color: white;
+}
+
+.text2 {
+  color: white;
+}
+
+.cards {
+  margin: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: rem;
+}
+
+
 }
 </style>
