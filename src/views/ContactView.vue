@@ -100,7 +100,7 @@ export default {
 
 label {
     color: #ffffff ; 
-
+margin: 1rem;
 }
 
 h2 {
@@ -109,6 +109,11 @@ h2 {
 
 p {
     color: white;
+}
+
+.md-form {
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 a {
@@ -120,7 +125,7 @@ a {
     border-radius:10px;
     border: none;
     color: white;
-    
+    margin-top: 1rem;
 }
 
 </style>

@@ -6,7 +6,7 @@
       <h1 class="Main-title">About</h1>
       <h1 class="Main-title">Me</h1>
       <div class="btns">
-        <button class="btn1">View Projects</button>
+        <router-link :to="{ name : 'projects'}"><button class="btn1">View Projects</button></router-link>
       </div>
     </div>
   </div>

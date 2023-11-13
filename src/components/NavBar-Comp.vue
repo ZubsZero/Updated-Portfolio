@@ -1,172 +1,112 @@
 <template>
-<header class="header">  
-      <nav class="navbar navbar-dark bg-dark fixed-top">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="https://i.postimg.cc/VLvmYJRn/image-removebg-preview-1.png" alt="" class="img"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
-        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
-         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-          <li class="nav-item">
-            <router-link class="nav-link active" :to="{ name: 'home'}" >Home</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" :to="{name: 'about'}" >About</router-link>
-          </li>
-            <li class="nav-item">
-            <router-link  class="nav-link" href="#" :to="{name : 'projects'}" @click="reloadPage">Projects</router-link>
-          </li>
-
-          <li class="nav-item">
-            <router-link  class="nav-link" href="#" :to="{name : 'contact'}" @click="reloadPage">Contact Me</router-link>
-          </li>
-          <div class="cv">
-            <label for="CV"> View my CV</label>
-            <a :href="pdfUrl" download="ZubairMatthee_CV.pdf"><button class="button">CV</button></a>
+  <div class="nav">
+      <nav>
+          <div class="logo">
+              <img src="https://i.postimg.cc/VLvmYJRn/image-removebg-preview-1.png" alt="logo" class="logo">
           </div>
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
-         
-        </ul>
-      </div>
-    </div>
+          <ul class="NavBar">
+              <router-link to="/" class="list-item">Home</router-link>
+              <router-link to="/about" class="list-item">About</router-link>
+              <router-link to="/contact" class="list-item">Contact</router-link>
+              <router-link to="/projects" class="list-item">Projects</router-link>
+
+
+
+
+
+          </ul>
+       
+      </nav>
   </div>
-</nav>
-</header>
 </template>
-<script >
-  export default {
-  data() {
-    return {
-      pdfUrl: "https://drive.google.com/file/d/1TJJ2n-wQoRcy1YC7Gp8ggTJJlFeJlNZJ/view?usp=sharing", 
-    };
-  },
-};
+
+<script>
+export default {
+
+}
 </script>
-
-
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Monoton&display=swap');
 
 
-.navbar.navbar-dark.bg-dark.fixed-top{
-    background-color: transparent !important;
-    margin: 1rem;
+.list-item {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-left: 17rem;
+
+  position: relative;
+  font-size: 0.9rem;
+  font-family: 'Julius Sans One', sans-serif;
+
 }
 
-.img {
-    height:4rem ;
-    width: 4rem;
-}
-
-.offcanvas-header{
-  background-color: black !important;
-  color: white;
-}
-
-.offcanvas-title {
-color: #ae6006;
- font-family: "Zilla Slab", serif;
-}
-
-.offcanvas-body {
-  background-color: black;
-}
-
-label {
-  color: #ae6006;
-}
-
-.cv {
+nav {
+  background-color: black ;
   display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  text-align: center;
-  margin-top: 2rem ;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
-.button {
-  width: 7rem;
-  height: 3rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 7.5rem ;
-  background-color: black;
-  color: white;
-}
-
-.button:hover {
-  cursor: pointer;
-  transition: all 0.4s ease-in-out;
-  background: #ae6006;
-  color: black;
+.logo {
+width: 4rem;
+height: 4rem;    
+margin-left: 1rem
 
 }
 
-.nav-item {
-  margin-top: 3rem;
-  text-align: center;
+.NavBar {
+  margin-top: 1.4rem ;
 }
 
-
-.line {
-  border-bottom: 1px solid #ae6006 ;
-  margin-top: 3rem ;
-}
-
-.nav-item {
-  color: white;
-}
-
-.nav-link:after {
+.list-item:after{
   content: "";
   position: absolute;
-  background-color: #ae6006;
+  background-color: #cd8500;
   height: 4px;
   width: 0;
   left: 0px;
   bottom: -9px;
   transition: 0.3s;
 }
-
-.nav-link {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  position: relative;
-  font-size: 0.9rem;
-}
-
-a {
-  text-decoration: none;
-}
-
-
-.nav-link:hover {
+.list-item:hover{
   color: #ffffff;
 }
-.nav-link:hover:after {
+.list-item:hover:after{
   width: 100%;
 }
 
-label {
-  font-size: 1.6rem;
-  font-family: "Zilla Slab", serif;
-
+@media only screen and (max-width:400px) {
+  nav {
+      width: 100% auto;
+  }
+  html,body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow-x:hidden;
+  }
+  .NavBar {
+      display: flex;
+      margin-left: 1rem;
+  }
+  .list-item {
+      margin-left: 0.6rem;
+      font-size: 0.7rem;
+  }
+  .list-item:after{
+  content: "";
+  position: absolute;
+  background-color: #ce0505;
+  height: 4px;
+  width: 0;
+  left: 0px;
+  bottom: 14px;
+  transition: 0.3s;
 }
 
-@media only screen and (max-width: 300px) {
-  .navbar.navbar-dark.bg-dark.fixed-top{
-    background-color: transparent !important;
-    margin: 1rem;
-    position: relative;
 }
-}
+
+
 </style>

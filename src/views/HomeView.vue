@@ -82,7 +82,6 @@
 <script>
 import NavBar from "@/components/NavBar-Comp.vue";
 import Footer from "@/components/Footer-Comp.vue";
-import Swal from "sweetalert2";
 
 export default {
   name: "HomeView",
@@ -90,38 +89,7 @@ export default {
     NavBar,
     Footer,
   },
-  mounted() {
-    const alertShown = localStorage.getItem("alertShown");
-
-    if (!alertShown) {
-      setTimeout(() => {
-        this.showAlert();
-        localStorage.setItem("alertShown", "true");
-      }, 100);
-    }
-
-    window.addEventListener("unload", this.handleUnload);
-  },
-  beforeDestroy() {
-    window.removeEventListener("unload", this.handleUnload);
-  },
-  methods: {
-    showAlert() {
-      Swal.fire({
-        title: "Notification",
-        text: "Hi there User, Zubair here if there is an issue with the page freezing and unable to scroll, please press Ctrl R or reload the page in the browser's header. I have tried a multitude of ways to fix it but to no avail. I apologize for any inconvenience. Have an amazing day",
-        timer: 30000,
-        icon: "info",
-        buttons: true,
-        customClass: {
-          container: "dark-theme smaller-container",
-        },
-      });
-    },
-    handleUnload() {
-      localStorage.removeItem("alertShown");
-    },
-  },
+ 
 };
 </script>
 <style scoped>
