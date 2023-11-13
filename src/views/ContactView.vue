@@ -9,7 +9,7 @@
 <div class="row">
 
     <div class="col-md-9 mb-md-0 mb-5">
-        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+        <form id="contact-form" name="contact-form" action="https://formspree.io/f/xjvqdkew" method="POST">
 
             <div class="row">
 
