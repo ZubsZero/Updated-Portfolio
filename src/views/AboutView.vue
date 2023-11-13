@@ -253,18 +253,18 @@
         </div>
       </div>
       <div class="line"></div>
-      <div class="jason">
+      <div class="imti">
         <div class="images">
-          <img src="https://i.postimg.cc/Y00VDxWZ/image-6.png" alt="" class="imgs">
+          <img src="../Images/imti (1).png" alt="" class="imgs">
         </div>
-        <div class="jasons-info">
+        <div class="imti-info">
           <ul class="ul">
-            <li>Jason Barron</li>
+            <li>Imtiyaaz Damon</li>
             <li>Web Developer</li>
           </ul>
         </div>
         <div class="testify">
-          <p class="p">"Zubair is a person that is like a sitcom character, always finding themselves in hilarious situations despite his shyness and constantly trying to work hard to get out of them"</p>
+          <p class="p">"Zubair is a hardworking and intelligent individual with a knack for problem-solving. In collaborative settings, he proves to be resourceful and readily offers assistance, making him a valuable team member."</p>
         </div>
       </div>
       <div class="line"></div>
@@ -598,7 +598,7 @@ transition: 0.2s all ;
   gap: 2rem;
 }
 
-.jason {
+.imti {
   display: flex;
   flex-direction: row-reverse;
 }
@@ -615,7 +615,7 @@ margin-top: 2.8rem;
 width: 12rem;
 }
 
-.marcels-info, .jasons-info,.liyabona-info,.lyle-info, .sakhe-info {
+.marcels-info, .imti-info,.liyabona-info,.lyle-info, .sakhe-info {
   font-weight: 700;
 }
 
@@ -741,6 +741,82 @@ gap: 4rem;
   box-shadow: 1px 1px 12px 1px #cd8500;
 }
 
+.high-info {
+ width: 20rem;
+}
+
+.LC-info {
+  width: 20rem;
+}
+
+.skills-row {
+  margin: 0;
+  height: 44rem;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+}
+
+
+.marcel,  .liyabona,.sakhe {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+
+.imti {
+  display: flex;
+  flex-direction: column;
+}
+
+.lyle {
+  display: flex;
+  flex-direction: column;
+}
+
+.marcels-info, .imti-info,.liyabona-info,.lyle-info, .sakhe-info {
+  font-weight: 700;
+  text-align: center;
 
 }
+
+.testify {
+  margin-top: 2.8rem;
+}
+
+.testimonials {
+display: flex;
+flex-direction: column;
+gap: 2rem;
+align-items: center;
+justify-content: center;
+margin-top: 3rem;
+margin-left: 2rem;
+}
+
+.ul {
+list-style-type: none;
+color: white;
+margin-top: 2.8rem;
+width: 12rem;
+margin-left: 0.5rem;
+}
+.p {
+width: 15rem;
+text-align: center;
+}
+
+.testimonals-row {
+  margin-top : 3rem;
+}
+
+.imgs {
+  margin-left: 3rem;
+}
+
+}
+
+
 </style>

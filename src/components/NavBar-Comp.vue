@@ -89,10 +89,10 @@ margin-left: 1rem
   }
   .NavBar {
       display: flex;
-      margin-left: 1rem;
+      margin-left: 0rem;
   }
   .list-item {
-      margin-left: 0.6rem;
+      margin-left: 1.4rem;
       font-size: 0.7rem;
   }
   .list-item:after{
@@ -105,7 +105,11 @@ margin-left: 1rem
   bottom: 14px;
   transition: 0.3s;
 }
-
+.logo {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 0.1rem
+}
 }
 
 
