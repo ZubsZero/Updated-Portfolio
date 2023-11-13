@@ -235,6 +235,7 @@ export default {
   animation: fade-in 1s forwards;
 }
 
+
 .this {
   animation-delay: 1s;
 }

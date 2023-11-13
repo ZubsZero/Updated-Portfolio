@@ -6,7 +6,7 @@
       <h1 class="Main-title">Zubair Matthee</h1>
       <p class="text">Learn more about me through this portfolio</p>
       <div class="btns">
-        <button class="btn1">View Projects</button>
+        <router-link :to="{ name : 'projects'}"><button class="btn1">View Projects</button></router-link>
       </div>
     </div>
   </div>

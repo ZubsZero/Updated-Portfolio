@@ -8,6 +8,8 @@ import "bootstrap/dist/js/bootstrap.bundle";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
+import 'animate.css';
+
 
 createApp(App)
   .use(store)

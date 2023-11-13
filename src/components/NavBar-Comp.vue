@@ -22,6 +22,10 @@
             <li class="nav-item">
             <router-link  class="nav-link" href="#" :to="{name : 'projects'}" @click="reloadPage">Projects</router-link>
           </li>
+
+          <li class="nav-item">
+            <router-link  class="nav-link" href="#" :to="{name : 'contact'}" @click="reloadPage">Contact Me</router-link>
+          </li>
           <div class="cv">
             <label for="CV"> View my CV</label>
             <a :href="pdfUrl" download="ZubairMatthee_CV.pdf"><button class="button">CV</button></a>
