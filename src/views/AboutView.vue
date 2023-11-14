@@ -729,13 +729,13 @@ gap: 4rem;
 .education {
   display: flex;
   flex-direction: column;
-  gap: 20rem;
+  gap: 10rem;
 }
 
 .education-row {
   margin: 0rem;
   display: flex;
-  height: 67rem;
+  height: 77rem;
   align-items: center;
   justify-content: center;
   box-shadow: 1px 1px 12px 1px #cd8500;
@@ -743,11 +743,26 @@ gap: 4rem;
 
 .high-info {
  width: 20rem;
+ text-align: center;
 }
 
 .LC-info {
   width: 20rem;
+  font-size: 0.9rem;
+  margin-left: 0rem;
 }
+
+.LC {
+  width: 100%;
+}
+
+.high {
+  width:  20rem;
+}
+
+
+
+
 
 .skills-row {
   margin: 0;

@@ -451,4 +451,199 @@ export default {
   cursor: pointer;
   box-shadow: 1px 7px 2px white;
 }
+
+@media only screen and (max-width:300px){
+  .hero {
+  background-image: url("/src/Images/wp2808718-black-gold-wallpaper-hd.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 50rem;
+  width: 100% !important;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+}
+
+  .hero-info {
+  position: relative;
+  top: 20%;
+  margin-left: 2rem; 
+  color: white;
+}
+
+
+
+.Main-title {
+  animation-delay: 1.5s; 
+  font-size: 4rem;
+  font-family: "Zilla Slab", serif;
+  font-weight: 700;
+  color: #ae6006;
+  -webkit-text-stroke-width: 0.9px;
+  -webkit-text-stroke-color: rgb(5, 5, 5);
+  text-shadow: 0 0 6px #cd8500;
+}
+
+.project-section {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1rem;
+}
+
+.project-section2 {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column-reverse;
+}
+
+.project-section3 {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column-reverse;
+
+}
+
+.project-section4 {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column-reverse;
+}
+.project-section5 {
+  display: flex;
+  gap: 1rem;
+}
+.project-section6 {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column-reverse;
+}
+.project-section7 {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column-reverse;
+
+}
+.project-section8 {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column-reverse;
+}
+
+.project-section9 {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column-reverse;
+
+}
+
+.image {
+  height: 27rem;
+  width: 100%;
+}
+.project-sections {
+  margin: 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.info {
+  margin-top: 8rem;
+}
+
+.h1 {
+  color: #cd8500;
+  margin-left: 1rem;
+}
+
+.p {
+  color: #ffffff;
+  margin-left: 1rem;
+
+}
+
+.project-card1 {
+  background-image: url("https://i.postimg.cc/zvGF24tg/Screenshot-2023-07-05-160254.png");
+  background-position: center;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25rem;
+}
+
+.project-card2 {
+  background-image: url("https://i.postimg.cc/xTS0HYZ8/Screenshot-2023-07-05-160213.png");
+  background-position: center;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25rem;
+}
+
+.project-card3 {
+  background-image: url("https://i.postimg.cc/BbN44PBz/Screenshot-2023-07-05-160514.png");
+  background-position: center;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25rem;
+}
+
+.project-card4 {
+  background-image: url("https://i.postimg.cc/fRzScYPV/Screenshot-2023-07-05-160346.png");
+  background-position: center;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25rem;
+}
+
+.project-card5 {
+  background-image: url("https://i.postimg.cc/vTvHTNb3/Screenshot-2023-07-05-160425.png");
+  background-position: center;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25rem;
+}
+
+.project-card6 {
+  background-image: url("https://i.postimg.cc/QtXzs4YX/Screenshot-2023-07-05-160625.png");
+  background-position: center;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25rem;
+}
+
+.project-card7 {
+  background-image: url("https://i.postimg.cc/13cv6mMf/Screenshot-2023-11-10-113327.png");
+  background-position: center;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25rem;
+}
+
+.project-card8 {
+  background-image: url("https://i.postimg.cc/mZd7Wxn0/image-8.png");
+  background-position: center;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25rem;
+}
+.project-card9 {
+  background-image: url("https://i.postimg.cc/WtRNxqR0/Screenshot-2023-11-10-124720.png");
+  background-position: center;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25rem;
+}
+
+
+}
 </style>

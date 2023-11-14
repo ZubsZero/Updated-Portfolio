@@ -10,6 +10,8 @@
 body {
     min-height: 100vh !important;
     background-color: black !important;
+    width: 100% ;
+
 }
 
 

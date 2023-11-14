@@ -9,6 +9,8 @@
               <router-link to="/about" class="list-item">About</router-link>
               <router-link to="/contact" class="list-item">Contact</router-link>
               <router-link to="/projects" class="list-item">Projects</router-link>
+              <a href="https://drive.google.com/file/d/1dfQxVdaCln8OuxFHkJPYyQeax1yMBiTy/view?usp=sharing" class="list-item">CV</a>
+
 
 
 
@@ -32,7 +34,7 @@ export default {
 .list-item {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  margin-left: 17rem;
+  margin-left: 13rem;
 
   position: relative;
   font-size: 0.9rem;
@@ -76,10 +78,14 @@ margin-left: 1rem
   width: 100%;
 }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:300px) {
   nav {
-      width: 100% auto;
-  }
+  background-color: black ;
+  display: flex;
+  position: fixed;
+  width: 100% auto;
+  z-index: 1;
+}
   html,body {
       margin: 0;
       padding: 0;
@@ -90,9 +96,11 @@ margin-left: 1rem
   .NavBar {
       display: flex;
       margin-left: 0rem;
+      width: 100% ;
+
   }
   .list-item {
-      margin-left: 1.4rem;
+      margin-left: 0.4rem;
       font-size: 0.7rem;
   }
   .list-item:after{
