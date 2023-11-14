@@ -7,6 +7,8 @@
       <p class="text">Learn more about me through this portfolio</p>
       <div class="btns">
         <router-link :to="{ name : 'projects'}"><button class="btn1">View Projects</button></router-link>
+        <a href="https://drive.google.com/file/d/1dfQxVdaCln8OuxFHkJPYyQeax1yMBiTy/view?usp=sharing" target="_blank"><button class="btn1">View CV</button></a>
+
       </div>
     </div>
   </div>
@@ -134,6 +136,10 @@ export default {
   -webkit-text-stroke-width: 0.9px;
   -webkit-text-stroke-color: rgb(5, 5, 5);
   text-shadow: 0 0 6px #cd8500;
+}
+.btns {
+  gap: 1rem;
+  display: flex;
 }
 
 .text {

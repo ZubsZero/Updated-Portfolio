@@ -7,9 +7,9 @@
           <ul class="NavBar">
               <router-link to="/" class="list-item">Home</router-link>
               <router-link to="/about" class="list-item">About</router-link>
-              <router-link to="/contact" class="list-item">Contact</router-link>
               <router-link to="/projects" class="list-item">Projects</router-link>
-              <a href="https://drive.google.com/file/d/1dfQxVdaCln8OuxFHkJPYyQeax1yMBiTy/view?usp=sharing" class="list-item">CV</a>
+              <router-link to="/contact" class="list-item">Contact</router-link>
+
 
 
 
@@ -34,7 +34,7 @@ export default {
 .list-item {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  margin-left: 13rem;
+  margin-left: 16rem;
 
   position: relative;
   font-size: 0.9rem;
