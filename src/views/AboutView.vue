@@ -82,7 +82,7 @@
           <div class="line"></div>
           <ul class="general">
             <li class="list-item">Date Of Birth: 17 January 2005</li>
-            <li class="list-item">Residence: Matroosfontein - Elsies River</li>
+            <li class="list-item">Residence: Matroosfontein - Cape Town</li>
             <li class="list-item">Language: English</li>
           </ul>
         </div>
