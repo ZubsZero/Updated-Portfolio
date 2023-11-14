@@ -28,7 +28,7 @@
                 Full Name : <span class="color">Zubair Matthee</span>
               </li>
               <li class="list-item">
-                Location: <span class="color">Cape Town</span>
+                Location: <span class="color">Matroosfontein</span>
               </li>
               <li class="list-item">
                 Email: <span class="color">zubairmatthee262@gmail.com</span>
