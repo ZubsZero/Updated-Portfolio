@@ -128,4 +128,10 @@ a {
     margin-top: 1rem;
 }
 
+@media only screen and (max-width: 300px){
+    .mb-4{
+        margin: 1rem;
+    }
+}
+
 </style>
