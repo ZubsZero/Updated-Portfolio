@@ -2,7 +2,7 @@
   <div class="nav">
       <nav>
           <div class="logo">
-              <img src="https://i.postimg.cc/VLvmYJRn/image-removebg-preview-1.png" alt="logo" class="logo">
+              <img src="https://cdn-thumbs.imagevenue.com/31/df/25/ME17J0I3_t.png" alt="logo" class="logo">
           </div>
           <ul class="NavBar">
               <router-link to="/" class="list-item">Home</router-link>

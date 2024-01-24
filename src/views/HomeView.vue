@@ -15,7 +15,7 @@
   <div class="container-brief" ref="containerBrief">
     <div class="img-con" ref="imgCon">
       <img
-        src="https://i.postimg.cc/3xLnjgVm/C12-Zubair-Matthee-removebg-preview.png"
+        src="https://i.postimg.cc/6Q80SGvw/C12-Zubair-Matthee-removebg-preview.png"
         alt="img"
         class="image"
       />

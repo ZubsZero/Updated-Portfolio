@@ -2,7 +2,7 @@
     <div class="container">
   <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
     <div class="col mb-3">
-      <img src="https://i.postimg.cc/VLvmYJRn/image-removebg-preview-1.png" alt="" class="img">
+      <img src="https://cdn-thumbs.imagevenue.com/31/df/25/ME17J0I3_t.png" alt="" class="img">
       <p class="text-muted">&copy; Zubair Matthee 2022</p>
     </div>
 

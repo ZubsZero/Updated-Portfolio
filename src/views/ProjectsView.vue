@@ -358,7 +358,7 @@ export default {
 }
 
 .project-card1 {
-  background-image: url("https://i.postimg.cc/zvGF24tg/Screenshot-2023-07-05-160254.png");
+  background-image: url("https://i.postimg.cc/5tXsf0nm/Screenshot-2024-01-24-092621.png");
   background-position: center;
   width: 50rem;
   background-size: cover;
@@ -367,7 +367,7 @@ export default {
 }
 
 .project-card2 {
-  background-image: url("https://i.postimg.cc/xTS0HYZ8/Screenshot-2023-07-05-160213.png");
+  background-image: url("https://i.postimg.cc/rsw0Ld9V/Screenshot-2024-01-24-092830.png");
   background-position: center;
   width: 50rem;
   background-size: cover;
@@ -376,7 +376,7 @@ export default {
 }
 
 .project-card3 {
-  background-image: url("https://i.postimg.cc/BbN44PBz/Screenshot-2023-07-05-160514.png");
+  background-image: url("https://i.postimg.cc/dtSWpr90/Screenshot-2024-01-24-093113.png");
   background-position: center;
   width: 50rem;
   background-size: cover;
@@ -385,7 +385,7 @@ export default {
 }
 
 .project-card4 {
-  background-image: url("https://i.postimg.cc/fRzScYPV/Screenshot-2023-07-05-160346.png");
+  background-image: url("https://i.postimg.cc/y62jTs6J/Screenshot-2024-01-24-093254.png");
   background-position: center;
   width: 50rem;
   background-size: cover;
@@ -394,7 +394,7 @@ export default {
 }
 
 .project-card5 {
-  background-image: url("https://i.postimg.cc/vTvHTNb3/Screenshot-2023-07-05-160425.png");
+  background-image: url("https://i.postimg.cc/pLsnqJQ0/Screenshot-2024-01-24-093437.png");
   background-position: center;
   width: 50rem;
   background-size: cover;
@@ -403,7 +403,7 @@ export default {
 }
 
 .project-card6 {
-  background-image: url("https://i.postimg.cc/QtXzs4YX/Screenshot-2023-07-05-160625.png");
+  background-image: url("https://i.postimg.cc/901WCJQK/Screenshot-2024-01-24-093645.png");
   background-position: center;
   width: 50rem;
   background-size: cover;
@@ -412,7 +412,7 @@ export default {
 }
 
 .project-card7 {
-  background-image: url("https://i.postimg.cc/13cv6mMf/Screenshot-2023-11-10-113327.png");
+  background-image: url("https://iili.io/JamR8dJ.png");
   background-position: center;
   width: 50rem;
   background-size: cover;
@@ -421,7 +421,7 @@ export default {
 }
 
 .project-card8 {
-  background-image: url("https://i.postimg.cc/mZd7Wxn0/image-8.png");
+  background-image: url("https://iili.io/Jam55YJ.png");
   background-position: center;
   width: 50rem;
   background-size: cover;
@@ -429,7 +429,7 @@ export default {
   height: 25rem;
 }
 .project-card9 {
-  background-image: url("https://i.postimg.cc/WtRNxqR0/Screenshot-2023-11-10-124720.png");
+  background-image: url("https://iili.io/Jam7kAv.png");
   background-position: center;
   width: 50rem;
   background-size: cover;

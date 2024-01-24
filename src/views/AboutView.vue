@@ -16,7 +16,7 @@
         <div class="profile-card">
           <div class="image3">
             <img
-              src="https://i.postimg.cc/3xLnjgVm/C12-Zubair-Matthee-removebg-preview.png"
+              src="https://i.postimg.cc/6Q80SGvw/C12-Zubair-Matthee-removebg-preview.png"
               alt=""
               class="image1"
             />
@@ -140,7 +140,7 @@
       <div class="skill">
         <div class="img">
           <img
-            src="https://i.postimg.cc/yYQHWZnf/icons8-html-480.png"
+            src="https://thumbs2.imgbox.com/22/38/SxAztoYp_t.png"
             alt=""
             class="image"
           />
@@ -152,7 +152,7 @@
       <div class="skill">
         <div class="img">
           <img
-            src="https://i.postimg.cc/sDDzVcPQ/icons8-css-480.png"
+            src="https://thumbs2.imgbox.com/43/cc/XfMajBTA_t.png"
             alt=""
             class="image"
           />
@@ -164,7 +164,7 @@
       <div class="skill">
         <div class="img">
           <img
-            src="https://i.postimg.cc/Xqx0fGWY/icons8-javascript-480.png"
+            src="https://thumbs2.imgbox.com/38/33/Cqov8Lq1_t.png"
             alt=""
             class="image"
           />
@@ -176,7 +176,7 @@
       <div class="skill">
         <div class="img">
           <img
-            src="https://i.postimg.cc/d12F0NSd/icons8-vue-js-480.png"
+            src="https://thumbs2.imgbox.com/2e/a7/icjrfZoB_t.png"
             alt=""
             class="image"
           />
@@ -188,7 +188,7 @@
       <div class="skill">
         <div class="img">
           <img
-            src="https://i.postimg.cc/9XBV5S9H/icons8-mysql-480.png"
+            src="https://thumbs2.imgbox.com/6a/77/cd1qrjyg_t.png"
             alt=""
             class="image"
           />
@@ -200,7 +200,7 @@
       <div class="skill">
         <div class="img">
           <img
-            src="https://i.postimg.cc/Y0tHLNJP/icons8-node-js-240.png"
+            src="https://thumbs2.imgbox.com/26/ab/GlywMvbN_t.png"
             alt=""
             class="image"
           />
@@ -212,7 +212,7 @@
       <div class="skill">
         <div class="img">
           <img
-            src="https://i.postimg.cc/Y2NYW14z/icons8-bootstrap-240.png"
+            src="https://thumbs2.imgbox.com/8e/07/ozCkjDqZ_t.png"
             alt=""
             class="image"
           />
@@ -224,7 +224,7 @@
       <div class="skill">
         <div class="img">
           <img
-            src="https://i.postimg.cc/htwQw47G/icons8-microsoft-office-240.png"
+            src="https://thumbs2.imgbox.com/6d/0e/0dq0l9re_t.png"
             alt=""
             class="image"
           />
@@ -240,7 +240,7 @@
     <div class="testimonials">
       <div class="marcel">
         <div class="images">
-          <img src="https://i.postimg.cc/13577j93/image-1.png" alt="" class="imgs">
+          <img src="https://thumbs2.imgbox.com/5d/aa/sMZKrJwk_t.png" alt="" class="imgs">
         </div>
         <div class="marcels-info">
           <ul class="ul">
@@ -271,7 +271,7 @@
 
       <div class="liyabona">
         <div class="images">
-          <img src="https://i.postimg.cc/htw2p8pJ/image-5.png" alt="" class="imgs">
+          <img src="https://thumbs2.imgbox.com/00/3b/y2uRz0s8_t.png" alt="" class="imgs">
         </div>
         <div class="liyabona-info">
           <ul class="ul">
@@ -287,7 +287,7 @@
 
       <div class="lyle">
         <div class="images">
-          <img src="https://i.postimg.cc/05HHHqtX/image-4.png" alt="" class="imgs">
+          <img src="https://thumbs2.imgbox.com/fd/7a/XFIhYmxV_t.png" alt="" class="imgs">
         </div>
         <div class="lyle-info">
           <ul class="ul">
@@ -303,7 +303,7 @@
 
       <div class="sakhe">
         <div class="images">
-          <img src="https://i.postimg.cc/HW9czpBX/image-2.png" alt="" class="imgs">
+          <img src="https://thumbs2.imgbox.com/da/bf/23e5VSrX_t.png" alt="" class="imgs">
         </div>
         <div class="sakhe-info">
           <ul class="ul">
